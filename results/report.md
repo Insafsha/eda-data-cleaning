@@ -58,38 +58,38 @@
 
 
 
-![Распределение цены](results/plots/01_price_distribution.png)
+![Распределение цены](plots/01_price_distribution.png)
 
 ### 3.3. Распределение общей площади
 
 
 
-![Распределение общей площади](results/plots/02_full_sq_distribution.png)
+![Распределение общей площади](plots/02_full_sq_distribution.png)
 
 ### 3.4. Цена vs площадь
 
 График показывает зависимость между ценой и общей площадью:
 
 
-![Цена vs площадь](results/plots/03_price_vs_area_scatter.png)
+![Цена vs площадь](plots/03_price_vs_area_scatter.png)
 
 ### 3.5. Выбросы и пропуски
 
 Отдельно была проведена обработка выбросов и пропусков.
 
 
-![Выбросы и пропуски](results/plots/05_missing_values.png)
+![Выбросы и пропуски](plots/05_missing_values.png)
 
 ### 3.6. Год постройки vs цена
 
 
 
-![Год постройки vs цена](results/plots/07_price_by_build_year.png)
+![Год постройки vs цена](plots/07_price_by_build_year.png)
 
 ### 3.7. Цена vs категория этажности
 
 
-![Цена vs категория этажности](results/plots/08_floor_category_vs_price.png)
+![Цена vs категория этажности](plots/08_floor_category_vs_price.png)
 
 
 ## 4. Пропуски и очистка данных
@@ -97,7 +97,7 @@
 Исходный датасет содержал большое количество пропусков и логических ошибок.  
 Для оценки масштаба проблем был построен график пропусков:
 
-![Пропуски в данных](results/plots/05_missing_values.png)
+![Пропуски в данных](plots/05_missing_values.png)
 
 **Интерпретация:**
 
@@ -138,11 +138,11 @@
 
 ### 5.2 Распределение логарифма площади
 
-![Логарифм площади](results/plots/10_log_area_distribution.png)
+![Логарифм площади](plots/10_log_area_distribution.png)
 
 ### 5.3 log(Цена) vs log(Площадь)
 
-![Лог Цена vs Лог Площадь](results/plots/11_log_price_vs_log_area.png)
+![Лог Цена vs Лог Площадь](plots/11_log_price_vs_log_area.png)
 
 **Интерпретация:**  
 После логарифмирования зависимость становится почти линейной — признак площади объясняет значительную часть вариации цены.
@@ -154,7 +154,7 @@
 
 ### 6.1 Топ признаков, влияющих на цену
 
-![Топ корреляций](results/plots/06_top_correlation_features.png)
+![Топ корреляций](plots/06_top_correlation_features.png)
 
 **Интерпретация:**
 
@@ -172,7 +172,7 @@
 
 ### 6.2 Матрица корреляций ключевых признаков
 
-![Матрица корреляций](results/plots/07_key_features_corr.png)
+![Матрица корреляций](plots/07_key_features_corr.png)
 
 **Интерпретация:**
 
@@ -184,7 +184,7 @@
 
 ### 7.1 Цена по году постройки
 
-![Цена по году постройки](results/plots/07_price_by_build_year.png)
+![Цена по году постройки](plots/07_price_by_build_year.png)
 
 **Вывод:**
 
@@ -194,7 +194,7 @@
 
 ### 7.2 Цена по группе этажей
 
-![Цена по категориям этажей](results/plots/08_floor_category_vs_price.png)
+![Цена по категориям этажей](plots/08_floor_category_vs_price.png)
 
 **Вывод:**
 
@@ -223,3 +223,4 @@
 - Квартиры с одинаковой площадью сильно различаются по цене в зависимости от района
 
 - Логарифмирование сильно улучшает читаемость зависимостей
+
